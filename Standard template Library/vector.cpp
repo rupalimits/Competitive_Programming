@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 	
-	int a[] = {1, 2, 3, 5, 4, 7, 8, 8, 10};
+    int a[] = {1, 2, 3, 5, 4, 7, 8, 8, 10};
     int n = sizeof(a) / sizeof(a[0]);
     // Assigning array into vector
     vector<int> vect(a, a+n);
